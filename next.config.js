@@ -7,9 +7,8 @@ const nextConfig = {
   },
   poweredByHeader: false,
   compress: true,
-  // Optimize for performance
+  // Optimize for performance - removed optimizeCss to fix the critters error
   experimental: {
-    optimizeCss: true,
     scrollRestoration: true,
   },
   // Add proper headers for security and performance
